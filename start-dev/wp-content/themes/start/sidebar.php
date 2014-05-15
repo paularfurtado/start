@@ -1,0 +1,46 @@
+<div id="left_column">
+        	<div id="main_menu">
+            	<span id="menu_instruction">Menu de navega&ccedil;&atilde;o</span>
+<?php if ( !function_exists('dynamic_sidebar')
+        || !dynamic_sidebar() ) : ?>
+            	<ul id="main_menu_list">
+                	<li>
+                    	<a href="http://readinweb.iel.unicamp.br/start-dev/?cat=25" class="main_menu_blog active_menu_item" title="Voc&ecirc; est&aacute; na se&ccedil;&atilde;o Blog do Tom">
+                       		<img src="<?php echo get_template_directory_uri(); ?>/images/icon_menu_blog.png" alt="Blog do Tom" class="main_menu_icon" />
+							<img src="<?php echo get_template_directory_uri(); ?>/images/text_menu_blog.png" alt="Blog do Tom" class="main_menu_text" />
+                        </a>	
+                    </li>
+                    <li>
+                    	<a href="http://readinweb.iel.unicamp.br/start-dev/?cat=26" class="main_menu_bateboca" title="Acessar a se&ccedil;&atilde;o Bate-boca">
+                       		<img src="<?php echo get_template_directory_uri(); ?>/images/icon_menu_bateboca.png" alt="Bate-boca" class="main_menu_icon" />
+							<img src="<?php echo get_template_directory_uri(); ?>/images/text_menu_bateboca.png" alt="Bate-boca" class="main_menu_text" />
+                        </a>	
+                    </li>
+                    <li>
+                    	<a href="http://readinweb.iel.unicamp.br/start-dev/?cat=27" class="main_menu_conny" title="Acessar a se&ccedil;&atilde;o Conny's Curisioties">
+                       		<img src="<?php echo get_template_directory_uri(); ?>/images/icon_menu_conny.png" alt="Conny's Curiosities" class="main_menu_icon" />
+							<img src="<?php echo get_template_directory_uri(); ?>/images/text_menu_conny.png" alt="Conny's Curiosities" class="main_menu_text" />
+                        </a>	
+                    </li>
+                    <li>
+                    	<a href="http://readinweb.iel.unicamp.br/start-dev/?cat=28" class="main_menu_erdy" title="Acessar a se&ccedil;&atilde;o Challenges in Erdy's World" >	
+                        	<img src="<?php echo get_template_directory_uri(); ?>/images/icon_menu_erdy.png" alt="Challenges in Erdy's World" class="main_menu_icon" />
+							<img src="<?php echo get_template_directory_uri(); ?>/images/text_menu_erdy.png" alt="Challenges in Erdy's World" class="main_menu_text" />
+                        </a>	
+                    </li>
+                    <li>
+                    	<a href="http://readinweb.iel.unicamp.br/start-dev/?cat=29" class="main_menu_coreba" title="Acessar a se&ccedil;&atilde;o Link de Coreba">
+                       		<img src="<?php echo get_template_directory_uri(); ?>/images/icon_menu_coreba.png" alt="Link de Coreba" class="main_menu_icon" />
+							<img src="<?php echo get_template_directory_uri(); ?>/images/text_menu_coreba.png" alt="Link de Coreba" class="main_menu_text" />
+                        </a>	
+                    </li>
+                    <li>
+                    	<a href="http://readinweb.iel.unicamp.br/start-dev/?cat=30" class="main_menu_saby" title="Acessar a se&ccedil;&atilde;o Saby Sabe">                        	
+                       		<img src="<?php echo get_template_directory_uri(); ?>/images/icon_menu_saby.png" alt="Saby Sabe" class="main_menu_icon" />
+							<img src="<?php echo get_template_directory_uri(); ?>/images/text_menu_saby.png" alt="Saby Sabe" class="main_menu_text" />
+                        </a>	
+                    </li>          
+<?php endif; ?>
+                </ul>
+            </div>
+        </div>

@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style>
+	#drag_araci { width: 90px; height: 50px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+	#drag_mario { width: 90px; height: 50px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+	#drag_adenair { width: 90px; height: 50px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+	#drag_allenmother { width: 90px; height: 50px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+	#drag_allenfather { width: 90px; height: 50px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+	#drag_lorena { width: 90px; height: 50px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+	
+	#drop_araci { width: 90px; height: 50px; padding: 0.5em; position: absolute; top:700px; left: 670px; }
+	#drop_mario { width: 90px; height: 50px; padding: 0.5em; position: absolute; top:700px; left: 795px; }
+	#drop_adenair { width: 90px; height: 50px; padding: 0.5em; position: absolute; top:143px; left: 795px; }
+	#drop_allenmother { width: 60px; height: 50px; padding: 0.5em; position: absolute; top:143px; left: 15px; }
+	#drop_allenfather { width: 60px; height: 50px; padding: 0.5em; position: absolute; top:143px; left: 105px; }
+	#drop_lorena { width: 60px; height: 50px; padding: 0.5em; position: absolute; top:143px; left: 225px; }
+</style>
+
+#div_enunciado{
+background-color="black"
+}
+
+.ex_tom_m01s04{
+  border: thick  groove  rgb(100,149,237)
+}
